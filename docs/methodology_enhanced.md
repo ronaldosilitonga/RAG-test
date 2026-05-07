@@ -12,8 +12,8 @@ The study follows a prototype-oriented secure-RAG methodology for Indonesian cus
 
 - **Total samples**: **275** text instances.
 - **Class labels**:
-  - `normal`: 125 samples (45.5%, rounded from 45.45%)
-  - `injection`: 150 samples (54.5%, rounded from 54.55%)
+  - `normal`: 125 samples (45.5%)
+  - `injection`: 150 samples (54.5%)
 
 ### 8.2.2 Injection Breakdown
 
@@ -26,7 +26,7 @@ The study follows a prototype-oriented secure-RAG methodology for Indonesian cus
 - **Validation**: 27 samples (9.8%)
 - **Test**: 28 samples (10.2%)
 
-All splits use deterministic seed for reproducibility.
+All percentages in this section are rounded to one decimal place. All splits use deterministic seed for reproducibility.
 
 ## 8.3 Detection & RAG Pipeline Summary
 
