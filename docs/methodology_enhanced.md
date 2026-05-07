@@ -12,8 +12,8 @@ The study follows a prototype-oriented secure-RAG methodology for Indonesian cus
 
 - **Total samples**: **275** text instances.
 - **Class labels**:
-  - `normal`: 125 samples (45.45%)
-  - `injection`: 150 samples (54.55%)
+  - `normal`: 125 samples (45.5%, rounded from 45.45%)
+  - `injection`: 150 samples (54.5%, rounded from 54.55%)
 
 ### 8.2.2 Injection Breakdown
 
@@ -22,9 +22,9 @@ The study follows a prototype-oriented secure-RAG methodology for Indonesian cus
 
 ### 8.2.3 Data Split (Stratified)
 
-- **Train**: 220 samples (80%)
-- **Validation**: 27 samples (10% rounded)
-- **Test**: 28 samples (10% rounded)
+- **Train**: 220 samples (80.0%)
+- **Validation**: 27 samples (9.8%)
+- **Test**: 28 samples (10.2%)
 
 All splits use deterministic seed for reproducibility.
 
@@ -115,4 +115,3 @@ All splits use deterministic seed for reproducibility.
 | Indonesian context | IndoBERT-centric detector settings |
 | Scope limits to text/app-layer threats | Scenarios and gates restricted to text pipeline |
 | Prototype academic evaluation | Scenario-driven benchmark design and artifact tracking |
-
